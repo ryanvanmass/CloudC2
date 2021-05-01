@@ -1,2 +1,2 @@
 #!/bin/bash
-./c2-*_amd64_linux -hostname $1 --https
+./c2-*_amd64_linux -https -hostname $1
