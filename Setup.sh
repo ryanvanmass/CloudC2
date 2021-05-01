@@ -3,10 +3,10 @@
 echo "What is your package manager?"
 read PackageManger
 
-if [[ $PackageManger -eq "apt" ]]
+if [ $PackageManger = "apt" ]
 then
     sudo apt install wget unzip
-elif [[$PackageManger -eq "dnf" ]]
+elif [$PackageManger = "dnf" ]
 then
     sudo dnf install wget unzip
 else
@@ -19,3 +19,4 @@ unzip c2.zip
 
 mkdir C2
 mv c2* C2/
+rm sha*
