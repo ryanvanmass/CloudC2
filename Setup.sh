@@ -14,7 +14,8 @@ else
 fi
 
 ### Downloads and unzips CloudC2 Binary ###
-wget https://c2.hak5.org/download/community -O c2.zip && unzip -qq c2.zip
+wget https://c2.hak5.org/download/community -O c2.zip 
+unzip c2.zip
 
 mkdir C2
 mv c2* C2/
