@@ -1,7 +1,7 @@
 #!/bin/bash
 ### Determines Package Manager ###
 echo "What is your package manager?"
-read PackageManger
+PackageManger = $1
 
 if [ $PackageManger = "apt" ]
 then
