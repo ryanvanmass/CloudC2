@@ -1,12 +1,11 @@
 #!/bin/bash
 ### Determines Package Manager ###
-echo "What is your package manager?"
-PackageManger = $1
+# $1 is taken as input at run to determine which package manager to use to install dependancies
 
-if [ $PackageManger = "apt" ]
+if [ $1 = "apt" ]
 then
     sudo apt install wget unzip
-elif [$PackageManger = "dnf" ]
+elif [$1 = "dnf" ]
 then
     sudo dnf install wget unzip
 else
