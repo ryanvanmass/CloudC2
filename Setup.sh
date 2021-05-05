@@ -4,10 +4,10 @@
 
 if [ $1 = "apt" ]
 then
-    sudo apt install wget unzip
+    sudo apt install wget unzip -y
 elif [$1 = "dnf" ]
 then
-    sudo dnf install wget unzip
+    sudo dnf install wget unzip -y
 else
     echo "Error"
 fi
