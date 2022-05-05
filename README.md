@@ -21,10 +21,6 @@ An Easy to deploy Cloud C2 Docker Image
 ## Requirements
 ### Ports
 * 443   HTTPS
+* 8080  HTTP
 * 80    HTTP
 * 2022  SSH
-
-## Packages
-**NOTE**: Will be installed by Setup.sh
-* wget
-* unzip
