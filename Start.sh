@@ -5,4 +5,4 @@
 #./C2/c2-*_amd64_linux -https -hostname $1
 
 # HTTP
-./C2/c2-*_amd64_linux -hostname $1
+./C2/c2-*_amd64_linux -hostname $1 -db /C2/c2.db
