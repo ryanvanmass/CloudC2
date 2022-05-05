@@ -1,11 +1,14 @@
 # Hak5 Cloud C2 Docker Image
 An Easy to deploy Cloud C2 Docker Image
 
+## Pre-built Docker Image
+```
+    docker pull ryanvanmass/cloudc2:v1.0
+```
+
 ## Build and Deploy
 ### Build
 ```
-    sh Setup.sh
-
     docker build -t cloudc2 .
 ```
 
