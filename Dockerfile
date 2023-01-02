@@ -1,5 +1,5 @@
 # Download Base Image
-FROM ubuntu:20.04 as build
+FROM ubuntu:22.04 as build
 
 # Install Required Packages
 RUN apt update
