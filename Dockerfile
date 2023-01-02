@@ -13,4 +13,5 @@ RUN unzip c2.zip -d C2
 COPY Start.sh /
 
 
+VOLUME ["/C2"]
 ENTRYPOINT [ "sh", "Start.sh" ]
