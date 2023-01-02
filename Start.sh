@@ -5,23 +5,12 @@
 ### Check if C2 directory is empty at runtime ###
 if [ -d "/C2" ]
 then
-    if [ "$(ls -A /C2)" ]: then
+    if [ "$(ls -A /C2)" ]; then
         echo "Config Loaded" >> /C2/C2.log
     else
-        cp /C2_Backup/* /C2
-
-
-
-
-
-
-
-
-
-
-
-
-
+    cp /C2_Backup/* /C2
+    fi
+fi
 
 
 # HTTPS
