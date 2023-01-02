@@ -3,7 +3,7 @@ An Easy to deploy Cloud C2 Docker Image
 
 ## Pre-built Docker Image
 ```
-    docker pull ryanvanmass/cloudc2:v1.0
+    docker pull ryanvanmass/cloudc2:v2
 ```
 
 ## Build and Deploy
